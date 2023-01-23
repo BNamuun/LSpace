@@ -12,6 +12,7 @@ function App() {
       <Header />
       <Component />
       <Graph />
+      {/* <Tables /> */}
     </>
   );
 }
