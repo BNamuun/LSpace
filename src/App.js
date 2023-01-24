@@ -1,19 +1,15 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavTop from "./components/nav";
-import Header from "./components/header";
-import { Component } from "./components/paraPart";
-import { Graph } from "./Charts/Graph";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { ClientView } from "./client/clientView";
 
 function App() {
   return (
-    <>
-      <NavTop />
-      <Header />
-      <Component />
-      <Graph />
-      {/* <Tables /> */}
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="*" element={<ClientView />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

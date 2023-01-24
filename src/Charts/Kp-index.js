@@ -40,9 +40,9 @@ export function KpIndex() {
     async function fetchData() {
       const indexVal = [];
       const DateTime = [];
-      const dateP = [];
+      // const dateP = [];
       const TimeArr = [];
-      const TimeP = [];
+      // const TimeP = [];
       const res = await fetch(
         "https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json#"
       );
@@ -64,7 +64,7 @@ export function KpIndex() {
       for (let i = 0; i < DateTime.length; i++) {
         const pp = new Date(DateTime[i]);
         const kkk = pp.toLocaleDateString("en-us", { month: "short" });
-        const MonthD = pp.getMonth(pp);
+        // const MonthD = pp.getMonth(pp);
         const DayD = pp.getDate(pp);
         // console.log(MonthD);
         let hour = pp.getHours();
@@ -88,7 +88,7 @@ export function KpIndex() {
           {
             label: " Planetary Kp index (3 hour data)",
             data: indexVal.slice(-15),
-            backgroundColor: "rgba(255, 99, 132, 0.5)",
+            backgroundColor: "#00425A",
             borderWidth: 2,
           },
         ],

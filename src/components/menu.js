@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 import {
   faSatellite,
   faCloudSunRain,
@@ -10,7 +11,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 export function Menu() {
   return (
     <div className="TableP d-flex flex-wrap">
-      <div className="List glow col-lg-6 col-md-12 col-sm-12 col-12">
+      <div className="p-1 p-md-5 List glow col-lg-6 col-md-12 col-sm-12 col-12">
         <h4>
           {" "}
           <FontAwesomeIcon icon={faSatellite} /> Сансар судлал
@@ -23,15 +24,15 @@ export function Menu() {
             Соронзон шуургыг урьдчилан тандах нь
           </ListGroup.Item>
           <ListGroup.Item as="li">Геосоронзон индекс</ListGroup.Item>
-          <ListGroup.Item as="li">
+          <ListGroup.Item to="/cirList" as={Link}>
             CIR-с үүдэлтэй соронзон шуурганы каталог
           </ListGroup.Item>
-          <ListGroup.Item as="li">
+          <ListGroup.Item to="/cmeList" as={Link}>
             CME-с үүдэлтэй соронзон шуурганы каталог
           </ListGroup.Item>
         </ListGroup>
       </div>
-      <div className="List glow col-lg-6 col-md-12 col-sm-12 col-12">
+      <div className=" p-1 p-md-5 List glow col-lg-6 col-md-12 col-sm-12 col-12">
         <h4>
           {" "}
           <FontAwesomeIcon icon={faCloudSunRain} /> Сансарын цаг агаар
@@ -46,7 +47,7 @@ export function Menu() {
           <ListGroup.Item as="li">Нар-Дэлхийн холбоо</ListGroup.Item>
         </ListGroup>
       </div>
-      <div className="List glow col-lg-6 col-md-12 col-sm-12 col-12">
+      <div className="p-1 p-md-5 List glow col-lg-6 col-md-12 col-sm-12 col-12">
         <h4>
           {" "}
           <FontAwesomeIcon icon={faCompass} /> Соронзон станц
@@ -61,7 +62,7 @@ export function Menu() {
           <ListGroup.Item as="li">Ховд</ListGroup.Item>
         </ListGroup>
       </div>
-      <div className="List glow col-lg-6 col-md-12 col-sm-12 col-12">
+      <div className="p-1 p-md-5 List glow col-lg-6 col-md-12 col-sm-12 col-12">
         <h4>
           {" "}
           <FontAwesomeIcon icon={faBookAtlas} /> Судалгаа

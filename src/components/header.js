@@ -6,7 +6,11 @@ import Mars from "../images/Mars - 65129.mp4";
 import Aurora from "../images/Aurora Borealis - 3117.mp4";
 function Header() {
   return (
-    <Carousel fade style={{ height: "100vh" }}>
+    <Carousel
+      fade
+      style={{ height: "100vh" }}
+      className="col-lg-12 col-md-12 col-sm-12 col-12"
+    >
       <Carousel.Item style={{ height: "100vh" }}>
         <video
           className="d-block w-100 h-100"
@@ -17,8 +21,8 @@ function Header() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <div className="text-start margin d-flex flex-wrap flex-column">
-            <h3 className=" text">Сансар судлал</h3>
+          <div className="d-flex text-start flex-wrap flex-column">
+            <h3 className="text">Сансар судлал</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             <AwesomeButton
               style={{ width: "200px", fontSize: "1.1rem" }}

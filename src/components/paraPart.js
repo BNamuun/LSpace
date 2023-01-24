@@ -6,13 +6,17 @@ import { Menu } from "./menu";
 
 export const Component = () => (
   <div
-    className="d-flex"
+    className="d-flex flex-md-wrap"
     style={{ backgroundImage: `url(${spaceBackground})` }}
   >
-    <Parallax className="parallaxParent" bgImage={austronat} strength={340}>
+    <Parallax
+      className="parallaxParent d-flex col-lg-6 d-md-block"
+      bgImage={austronat}
+      strength={340}
+    >
       <div className="content d-flex"></div>
     </Parallax>
-    <div className="sec">
+    <div className="sec col-lg-6 col-md-12 col-sm-12 col-12">
       <Menu />
     </div>
   </div>

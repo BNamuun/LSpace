@@ -49,7 +49,6 @@ export function Lines() {
       );
       let data1 = await res.json();
       const dataRange = data1;
-      // console.log(dataRange.length);
       dataRange.map((item) => flux.push(item["f10.7"]));
       dataRange.map((item) => dateFlux.push(item["time-tag"].slice(0, 4)));
 
@@ -58,29 +57,20 @@ export function Lines() {
       );
       let data2 = await response.json();
       const dataRangeSmoothed = data2;
-      // console.log(dataRangeSmoothed);
-      // console.log(dataRangeSmoothed.length);
       dataRangeSmoothed.map((item) =>
-        // item == 0 ? item = Nan : item =item
         smoothedFlux.push(item["smoothed_f10.7"])
       );
-      // for (let i = 0; smoothedFlux.length; i++) {
-      //   if (smoothedFlux[i] === -1) {
-      //     smoothedFlux[i] = NaN;
-      //   }
-      // }
-
-      // smoothedFlux.slice(0, smoothedFlux.length - 6);
-
-      // console.log(smoothedFlux);
+      const newArr = smoothedFlux.map((item) =>
+        item < 0 ? (item = NaN) : item
+      );
 
       setData({
         labels: dateFlux,
         datasets: [
           {
             label: "smoothed_f10.7",
-            data: smoothedFlux.slice(0, smoothedFlux.length - 6),
-            backgroundColor: "rgba(255, 99, 132, 0.5)",
+            data: newArr.slice(0, newArr.length - 6),
+            backgroundColor: "#FF0000",
             borderColor: "#FF0000",
             pointRadius: 0,
             order: 0,
@@ -89,10 +79,10 @@ export function Lines() {
           {
             label: "f10.7",
             data: flux,
-            borderColor: "#54B435",
+            borderColor: "#13005A",
             order: 1,
             fill: false,
-            backgroundColor: "rgba(53, 162, 235, 0.5)",
+            backgroundColor: "#13005A",
           },
         ],
       });

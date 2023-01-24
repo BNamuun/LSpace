@@ -60,7 +60,7 @@ export function DstIndex() {
       for (let i = 0; i < dateVal.length; i++) {
         const pp = new Date(dateVal[i]);
         const kkk = pp.toLocaleDateString("en-us", { month: "short" });
-        const MonthD = pp.getMonth(pp);
+        // const MonthD = pp.getMonth(pp);
         const DayD = pp.getDate(pp);
         // console.log(MonthD);
         let hour = pp.getHours();
@@ -83,8 +83,8 @@ export function DstIndex() {
             {
               label: "kyoto-dst value",
               data: dstVal,
-              backgroundColor: "rgba(255, 99, 132, 0.5)",
-              borderColor: "#FF0000",
+              backgroundColor: "#495579",
+              borderColor: "#495579",
               order: 0,
               fill: true,
             },
