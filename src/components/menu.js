@@ -24,10 +24,10 @@ export function Menu() {
             Соронзон шуургыг урьдчилан тандах нь
           </ListGroup.Item>
           <ListGroup.Item as="li">Геосоронзон индекс</ListGroup.Item>
-          <ListGroup.Item to="/cirList" as={Link}>
+          <ListGroup.Item className="featureList" to="/cirList" as={Link}>
             CIR-с үүдэлтэй соронзон шуурганы каталог
           </ListGroup.Item>
-          <ListGroup.Item to="/cmeList" as={Link}>
+          <ListGroup.Item className="featureList" to="/cmeList" as={Link}>
             CME-с үүдэлтэй соронзон шуурганы каталог
           </ListGroup.Item>
         </ListGroup>
