@@ -12,11 +12,11 @@
 }
 .sec{
   /* width: 50%; */
-  height: 100vh;
+  /* max-height: 100vh; */
   color: white;
 }
 .parallaxParent{
-  height: 100vh;
+  /* max-height: 100vh; */
   /* width: 50%; */
 }
 .list-group-item{
@@ -38,7 +38,7 @@ ul li:hover{
   color: white;
 }
 .TableP{
-  height: 100vh;
+  /* max-height: 100vh; */
   background-color: rgba(3, 0, 28, 0.5);
 }
 .List{
