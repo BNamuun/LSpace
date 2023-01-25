@@ -12,12 +12,29 @@
 }
 .sec{
   /* width: 50%; */
-  /* max-height: 100vh; */
+  height: auto;
   color: white;
 }
 .parallaxParent{
-  /* max-height: 100vh; */
+  height: auto;
   /* width: 50%; */
+}
+/* .p-1{
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+
+} */
+@media screen and (min-width: 966px) {
+  .sec {
+    height: 100vh;
+  }
+  .parallaxParent{
+    height: 100vh;
+  }
+  .TableP{
+    height: 100vh;
+  }
 }
 .list-group-item{
   background: #2c2c2c;
@@ -38,7 +55,7 @@ ul li{
   color: white;
 }
 .TableP{
-  /* max-height: 100vh; */
+  /* height: 100vh;  */
   background-color: rgba(3, 0, 28, 0.5);
 }
 .List{

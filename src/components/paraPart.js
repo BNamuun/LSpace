@@ -6,7 +6,7 @@ import { Menu } from "./menu";
 
 export const Component = () => (
   <div
-    className="d-flex flex-md-wrap w-100 h-100"
+    className="d-flex container-fluid flex-md-wrap w-100"
     style={{ backgroundImage: `url(${spaceBackground})` }}
   >
     <Parallax
