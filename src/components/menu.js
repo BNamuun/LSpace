@@ -11,7 +11,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 export function Menu() {
   return (
     <div className="TableP d-flex flex-wrap">
-      <div className="p-1 p-md-5 List glow col-lg-6 col-md-12 col-sm-12 col-12">
+      <div className="p-1 p-md-3 List glow col-lg-6 col-md-12 col-sm-12 col-12">
         <h4>
           {" "}
           <FontAwesomeIcon icon={faSatellite} /> Сансар судлал
@@ -34,7 +34,7 @@ export function Menu() {
           </ListGroup.Item>
         </ListGroup>
       </div>
-      <div className=" p-1 p-md-5 List glow col-lg-6 col-md-12 col-sm-12 col-12">
+      <div className=" p-1 p-md-3 List glow col-lg-6 col-md-12 col-sm-12 col-12">
         <h4>
           {" "}
           <FontAwesomeIcon icon={faCloudSunRain} /> Сансарын цаг агаар
@@ -57,7 +57,7 @@ export function Menu() {
           </ListGroup.Item>
         </ListGroup>
       </div>
-      <div className="p-1 p-md-5 List glow col-lg-6 col-md-12 col-sm-12 col-12">
+      <div className="p-1 p-md-3 List glow col-lg-6 col-md-12 col-sm-12 col-12">
         <h4>
           {" "}
           <FontAwesomeIcon icon={faCompass} /> Соронзон станц
@@ -80,7 +80,7 @@ export function Menu() {
           </ListGroup.Item>
         </ListGroup>
       </div>
-      <div className="p-1 p-md-5 List glow col-lg-6 col-md-12 col-sm-12 col-12">
+      <div className="p-1 p-md-3 List glow col-lg-6 col-md-12 col-sm-12 col-12">
         <h4>
           {" "}
           <FontAwesomeIcon icon={faBookAtlas} /> Судалгаа

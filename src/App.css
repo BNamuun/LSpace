@@ -17,7 +17,7 @@
 }
 .parallaxParent{
   height: auto;
-  /* width: 50%; */
+  width: 30%;
 }
 /* .p-1{
   display: flex;
@@ -25,12 +25,13 @@
     justify-content: center;
 
 } */
-@media screen and (min-width: 966px) {
+@media screen and (min-width: 992px) {
   .sec {
     height: 100vh;
   }
   .parallaxParent{
     height: 100vh;
+    width: 50%;
   }
   .TableP{
     height: 100vh;
