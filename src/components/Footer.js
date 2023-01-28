@@ -24,53 +24,53 @@ export function Footer() {
                 <MDBIcon color="secondary" icon="gem" className="me-3" />
                 Space Mongolia
               </h6>
-              <p>lorem flakjdlfk djfkd kf jl</p>
+              <p>lorem</p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+              <h6 className="text-uppercase fw-bold mb-4">Бүтээгдэхүүн</h6>
               <p>
                 <Link to="#!" as={Link} className="text-reset">
-                  Angular
+                  Ном
                 </Link>
               </p>
               <p>
                 <Link to="#!" as={Link} className="text-reset">
-                  Angular
+                  Сэтгүүл
                 </Link>
               </p>
               <p>
                 <Link to="#!" as={Link} className="text-reset">
-                  Angular
+                  Судалгаа
                 </Link>
               </p>
               <p>
                 <Link to="#!" as={Link} className="text-reset">
-                  Angular
+                  Контент
                 </Link>
               </p>
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
+              <h6 className="text-uppercase fw-bold mb-4">Өгөгдөл, Мэдээлэл</h6>
               <p>
                 <Link to="#!" as={Link} className="text-reset">
-                  Angular
+                  Геосоронзон индексүүд
                 </Link>
               </p>
               <p>
                 <Link to="#!" as={Link} className="text-reset">
-                  Angular
+                  Сансар судлалын тухай
                 </Link>
               </p>
               <p>
                 <Link to="#!" as={Link} className="text-reset">
-                  Angular
+                  Соронзон орон
                 </Link>
               </p>
               <p>
                 <Link to="#!" as={Link} className="text-reset">
-                  Angular
+                  Урьдчилан тандалт
                 </Link>
               </p>
             </MDBCol>
