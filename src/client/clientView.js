@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import { TableCIR } from "../Charts/tableCIR";
-import { TableCME } from "../Charts/tableCME";
 import { TableCMEFast } from "../Charts/tableCMEFast";
 import { Footer } from "../components/Footer";
 import NavTop from "../components/nav";

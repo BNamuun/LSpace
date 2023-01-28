@@ -4,6 +4,7 @@ import aurora_mountain from "../images/aurora_mountain.jpg";
 import Eclipse from "../images/Eclipse.jpg";
 import Moon from "../images/moon.jpg";
 import Miss from "../images/MISS.jpg";
+import { Link } from "react-router-dom";
 export function News() {
   return (
     <div className="container px-4 py-5" id="custom-cards">
@@ -181,30 +182,32 @@ export function News() {
             }}
           >
             <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Дагуул</h3>
-              <ul className="d-flex list-unstyled mt-auto">
-                <li className="me-auto">
-                  <img
-                    src={Moon}
-                    alt="Bootstrap"
-                    width={32}
-                    height={32}
-                    className="rounded-circle border border-white"
-                  />
-                </li>
-                <li className="d-flex align-items-center me-3">
-                  <svg className="bi me-2" width="1em" height="1em">
-                    <use xlinkHref="#geo-fill" />
-                  </svg>
-                  <small>Moon</small>
-                </li>
-                <li className="d-flex align-items-center">
-                  <svg className="bi me-2" width="1em" height="1em">
-                    <use xlinkHref="#calendar3" />
-                  </svg>
-                  <small>4d</small>
-                </li>
-              </ul>
+              <Link style={{ color: "white" }} to="/moon" as={Link}>
+                <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Гараг</h3>
+                <ul className="d-flex list-unstyled mt-auto">
+                  <li className="me-auto">
+                    <img
+                      src={Moon}
+                      alt="Bootstrap"
+                      width={32}
+                      height={32}
+                      className="rounded-circle border border-white"
+                    />
+                  </li>
+                  <li className="d-flex align-items-center me-3">
+                    <svg className="bi me-2" width="1em" height="1em">
+                      <use xlinkHref="#geo-fill" />
+                    </svg>
+                    <small>Moon</small>
+                  </li>
+                  <li className="d-flex align-items-center">
+                    <svg className="bi me-2" width="1em" height="1em">
+                      <use xlinkHref="#calendar3" />
+                    </svg>
+                    <small>4d</small>
+                  </li>
+                </ul>
+              </Link>
             </div>
           </div>
         </div>
