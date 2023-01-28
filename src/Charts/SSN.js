@@ -73,7 +73,7 @@ export function Sunspot() {
             borderColor: "#FF0000",
             pointRadius: 0,
             order: 0,
-            fill: true,
+            fill: false,
           },
           {
             label: "Monthly SSN",

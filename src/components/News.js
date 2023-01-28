@@ -21,7 +21,7 @@ export function News() {
           >
             <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
               <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Short title, long jacket
+                Галактик
               </h3>
               <ul className="d-flex list-unstyled mt-auto">
                 <li className="me-auto">
@@ -59,9 +59,9 @@ export function News() {
               backgroundSize: "cover",
             }}
           >
-            <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <div className="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
               <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Much longer title that wraps to multiple lines
+                Сансар огторгуй
               </h3>
               <ul className="d-flex list-unstyled mt-auto">
                 <li className="me-auto">
@@ -77,7 +77,7 @@ export function News() {
                   <svg className="bi me-2" width="1em" height="1em">
                     <use xlinkHref="#geo-fill" />
                   </svg>
-                  <small>Pakistan</small>
+                  <small>Earth</small>
                 </li>
                 <li className="d-flex align-items-center">
                   <svg className="bi me-2" width="1em" height="1em">
@@ -101,7 +101,7 @@ export function News() {
           >
             <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Another longer title belongs here
+                Туйлын туяа
               </h3>
               <ul className="d-flex list-unstyled mt-auto">
                 <li className="me-auto">
@@ -117,7 +117,7 @@ export function News() {
                   <svg className="bi me-2" width="1em" height="1em">
                     <use xlinkHref="#geo-fill" />
                   </svg>
-                  <small>California</small>
+                  <small>Aurora</small>
                 </li>
                 <li className="d-flex align-items-center">
                   <svg className="bi me-2" width="1em" height="1em">
@@ -143,9 +143,7 @@ export function News() {
             }}
           >
             <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Short title, long jacket
-              </h3>
+              <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Хиртэлт</h3>
               <ul className="d-flex list-unstyled mt-auto">
                 <li className="me-auto">
                   <img
@@ -183,9 +181,7 @@ export function News() {
             }}
           >
             <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Much longer title that wraps to multiple lines
-              </h3>
+              <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Дагуул</h3>
               <ul className="d-flex list-unstyled mt-auto">
                 <li className="me-auto">
                   <img
@@ -200,7 +196,7 @@ export function News() {
                   <svg className="bi me-2" width="1em" height="1em">
                     <use xlinkHref="#geo-fill" />
                   </svg>
-                  <small>Pakistan</small>
+                  <small>Moon</small>
                 </li>
                 <li className="d-flex align-items-center">
                   <svg className="bi me-2" width="1em" height="1em">
@@ -224,7 +220,7 @@ export function News() {
           >
             <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
               <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Another longer title belongs here
+                Сансрын хөлөг
               </h3>
               <ul className="d-flex list-unstyled mt-auto">
                 <li className="me-auto">
@@ -240,7 +236,7 @@ export function News() {
                   <svg className="bi me-2" width="1em" height="1em">
                     <use xlinkHref="#geo-fill" />
                   </svg>
-                  <small>California</small>
+                  <small>Spaceship</small>
                 </li>
                 <li className="d-flex align-items-center">
                   <svg className="bi me-2" width="1em" height="1em">

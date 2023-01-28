@@ -133,14 +133,14 @@ export function TableCIR() {
   //   fetchData();
   // }, []);
   return (
-    <>
-      <h1>
+    <div className="container px-4 py-5" id="custom-cards">
+      <h1 className="text-center">
         {" "}
         CIR(Corotating interaction region)-с үүдэлтэй соронзон шуурганы каталог
         1997-2018{" "}
       </h1>
       <Table striped bordered hover>
-        <thead>
+        <thead className="text-white bg-dark">
           <tr>
             <th>#</th>
             <th>Start date (Y/M/D)</th>
@@ -152,7 +152,7 @@ export function TableCIR() {
         <tbody>
           {data.map((item, index) => (
             <tr>
-              <td> {index + 1}</td>
+              <td className="font-weight-bold"> {index + 1}</td>
               <td> {item[0]}</td>
               <td> {item[1]}</td>
               <td> {item[2]}</td>
@@ -161,6 +161,6 @@ export function TableCIR() {
           ))}
         </tbody>
       </Table>
-    </>
+    </div>
   );
 }

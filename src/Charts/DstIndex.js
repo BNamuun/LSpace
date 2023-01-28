@@ -10,6 +10,7 @@ import {
   Legend,
 } from "chart.js";
 import { Line } from "react-chartjs-2";
+import { Filler } from "chart.js";
 
 ChartJS.register(
   CategoryScale,
@@ -17,6 +18,7 @@ ChartJS.register(
   PointElement,
   LineElement,
   Title,
+  Filler,
   Tooltip,
   Legend
 );
@@ -83,8 +85,9 @@ export function DstIndex() {
             {
               label: "kyoto-dst value",
               data: dstVal,
-              backgroundColor: "#495579",
+              // backgroundColor: "#495579",
               borderColor: "#495579",
+              // pointRadius: 0,
               order: 0,
               fill: true,
             },

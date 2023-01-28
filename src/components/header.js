@@ -43,10 +43,23 @@ function Header() {
           muted
           alt="Second slide"
         />
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <div className="d-flex flex-column justify-content-center align-items-center">
             <h3 className="text">Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </Carousel.Caption> */}
+        <Carousel.Caption>
+          <div className="d-flex text-start flex-wrap flex-column">
+            <h3 className="text">Сансар судлал</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <AwesomeButton
+              style={{ width: "200px", fontSize: "1.1rem" }}
+              type="primary"
+            >
+              {" "}
+              Дэлгэрэнгүй
+            </AwesomeButton>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -60,13 +73,26 @@ function Header() {
           alt="Third slide"
         />
         <Carousel.Caption>
+          <div className="d-flex text-start flex-wrap flex-column">
+            <h3 className="text fw-bolder">Сансар судлал</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <AwesomeButton
+              style={{ width: "200px", fontSize: "1.1rem" }}
+              type="primary"
+            >
+              {" "}
+              Дэлгэрэнгүй
+            </AwesomeButton>
+          </div>
+        </Carousel.Caption>
+        {/* <Carousel.Caption>
           <div className="text-end">
             <h3 className="text">Third slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
           </div>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
     </Carousel>
   );
