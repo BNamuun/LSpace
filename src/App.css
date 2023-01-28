@@ -135,7 +135,7 @@ li{
   color: #61dafb;
 }
 a{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 @keyframes App-logo-spin {
