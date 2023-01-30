@@ -92,7 +92,7 @@ export function Menu() {
           <ListGroup.Item className="featureList" as="li">
             Сансар судлал (Space Science)
           </ListGroup.Item>
-          <ListGroup.Item className="featureList" as="li">
+          <ListGroup.Item className="featureList" to="/pulsation" as={Link}>
             Геосоронзон пульсац (Geomagnetic pulsation)
           </ListGroup.Item>
           <ListGroup.Item className="featureList" as="li">
