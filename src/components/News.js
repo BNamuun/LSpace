@@ -100,34 +100,36 @@ export function News() {
               backgroundSize: "cover",
             }}
           >
-            <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Туйлын туяа
-              </h3>
-              <ul className="d-flex list-unstyled mt-auto">
-                <li className="me-auto">
-                  <img
-                    src={aurora_mountain}
-                    alt="Bootstrap"
-                    width={32}
-                    height={32}
-                    className="rounded-circle border border-white"
-                  />
-                </li>
-                <li className="d-flex align-items-center me-3">
-                  <svg className="bi me-2" width="1em" height="1em">
-                    <use xlinkHref="#geo-fill" />
-                  </svg>
-                  <small>Aurora</small>
-                </li>
-                <li className="d-flex align-items-center">
-                  <svg className="bi me-2" width="1em" height="1em">
-                    <use xlinkHref="#calendar3" />
-                  </svg>
-                  <small>5d</small>
-                </li>
-              </ul>
-            </div>
+            <Link to="/Aurora" style={{ color: "white" }} as={Link}>
+              <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Туйлын туяа
+                </h3>
+                <ul className="d-flex list-unstyled mt-auto">
+                  <li className="me-auto">
+                    <img
+                      src={aurora_mountain}
+                      alt="Bootstrap"
+                      width={32}
+                      height={32}
+                      className="rounded-circle border border-white"
+                    />
+                  </li>
+                  <li className="d-flex align-items-center me-3">
+                    <svg className="bi me-2" width="1em" height="1em">
+                      <use xlinkHref="#geo-fill" />
+                    </svg>
+                    <small>Aurora</small>
+                  </li>
+                  <li className="d-flex align-items-center">
+                    <svg className="bi me-2" width="1em" height="1em">
+                      <use xlinkHref="#calendar3" />
+                    </svg>
+                    <small>5d</small>
+                  </li>
+                </ul>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

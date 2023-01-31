@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 #root{
   font-family: 'Roboto', sans-serif;
   line-height: 1.2;
   letter-spacing: .4px;
+}
+.main{
+  font-family: 'Roboto', sans-serif;
 }
 .App {
   text-align: center;

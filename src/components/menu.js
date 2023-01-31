@@ -20,10 +20,10 @@ export function Menu() {
           className="ListBody col-lg-6 col-md-12 col-sm-12 w-100"
           as="ul"
         >
-          <ListGroup.Item className="featureList" as="li">
+          <ListGroup.Item className="featureList" to="/prediction" as={Link}>
             Соронзон шуургыг урьдчилан тандах нь
           </ListGroup.Item>
-          <ListGroup.Item className="featureList" as="li">
+          <ListGroup.Item className="featureList" to="/GMIndex" as={Link}>
             Геосоронзон индекс
           </ListGroup.Item>
           <ListGroup.Item className="featureList" to="/cirList" as={Link}>

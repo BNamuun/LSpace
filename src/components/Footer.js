@@ -24,7 +24,6 @@ export function Footer() {
                 <MDBIcon color="secondary" icon="gem" className="me-3" />
                 Space Mongolia
               </h6>
-              <p>lorem</p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
