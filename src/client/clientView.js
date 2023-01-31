@@ -14,7 +14,7 @@ export function ClientView() {
         <Route path="/" element={<HomePage />} />
         <Route path="/cirList" element={<TableCIR />} />
         <Route path="/cmeList" element={<TableCMEFast />} />
-        <Route path="/pulsaton" element={<Pulsation />} />
+        <Route path="/pulsation" element={<Pulsation />} />
       </Routes>
       <Footer />
     </>
