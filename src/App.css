@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+=======
+@import "react-slideshow-image/dist/styles.css";
+>>>>>>> e07a317f5d760cfe37aadf01727a5f84e8ca883f
 #root{
   font-family: 'Roboto', sans-serif;
   line-height: 1.2;

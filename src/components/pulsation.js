@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
@@ -62,3 +63,8 @@ export const Pulsations = () => {
     </div>
   );
 };
+=======
+export function Pulsation() {
+  return <></>;
+}
+>>>>>>> e07a317f5d760cfe37aadf01727a5f84e8ca883f
