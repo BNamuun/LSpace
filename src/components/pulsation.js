@@ -45,7 +45,7 @@ const fadeImages = [
   },
 ];
 
-export const Pulsation = () => {
+export const Pulsations = () => {
   return (
     <div className="slide-container">
       <Fade>
