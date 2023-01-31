@@ -90,8 +90,8 @@ export function Footer() {
                 info@example.com
               </p>
               <p>
-                <MDBIcon color="secondary" icon="phone" className="me-3" /> + 01
-                234 567 88
+                <MDBIcon color="secondary" icon="phone" className="me-3" /> 976
+                - 11452722
               </p>
               <p>
                 <MDBIcon color="secondary" icon="print" className="me-3" /> + 01
