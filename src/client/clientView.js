@@ -16,8 +16,8 @@ export function ClientView() {
       <NavTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/cirList" element={<TableCIR />} />
-        <Route path="/cmeList" element={<TableCMEFast />} />
+        {/* <Route path="/cirList" element={<TableCIR />} /> */}
+        {/* <Route path="/cmeList" element={<TableCMEFast />} /> */}
         <Route path="/pulsation" element={<Pulsations />} />
         <Route path="/prediction" element={<GStormPred />} />
         <Route path="/GMIndex" element={<GMIndex />} />
